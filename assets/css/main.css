@@ -116,6 +116,10 @@ section {
 
 /* Ajouts personnel */
 
+ul li {
+    list-style-type: none;
+}
+
 .taCenter {
     text-align: center;
 }
@@ -341,6 +345,11 @@ body {
     }
     .container {
         width: 90% !important;
+    }
+    .textMini li {
+        font-size: 18px;
+        margin-top: 6%;
+        margin-bottom: 6%;
     }
 }
 
